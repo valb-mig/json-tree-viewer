@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <title>JSON Tree Viewer</title>
+</head>
+<body>
+    <section id="content-box" class="center-content">
+
+        <h1 class="title">JSON Tree Viewer</h1>
+        <p>Simple JSON Viewer that runs completely on-client. No data exchange</p>
+        
+        <button id="json-file" class="file-input">Load JSON</button>
+        <input id="file-input" type="file" style="display:none;" onchange="getArchive()">
+        
+        <span id="input-error" class="error"></span>
+
+    </section>
+    <script src="/public/js/main.js"></script>
+</body>
+</html>
